@@ -1,0 +1,69 @@
+# Node js
+
+node js is open- source cross palteform javascript runtime enviroment.
+
+Event driven
+
+# use cases of node js
+
+1. spa  single page application 
+2. Real time application
+3. Data streeaming app 
+4. online chat paltform .
+5. other web app 
+6. making server
+
+# Architechture of node js
+
+using follwing step we can easiely understand architecture of node js .
+
+# web application
+
+web application is a program that runs on the server. it devides into three part 
+
+1.Client
+
+2.server
+
+3.Database
+
+# Client
+
+clinet is the front-end part of the application . the fornt-end is useally developed by html and css ., javascript and thier library like angular , react .it send a request to server and take response from the server for the user . 
+
+# Server
+
+server is the second part of  the web application . it takes request from the client and sends response to client . it fetch data from the database and external resource  and then provides response to the client . the server is developed by PHP , NODE JS , JAVA. 
+
+# Database
+
+Database is the third part of the web appliaction . Database stores data for web application . the data can be  created , updated , deleted, whenever the client send a request . mongodb, mysql are the most popular technologies in use to create database.
+
+# Main arcitec
+
+1. Request
+2. node.js (Server)
+3. Event queue
+4. Thread poll 
+5. Event loop
+6. External resource
+
+# Request
+
+Request can be blocking { complex} and non-blocking depending on user that what deos he want
+
+# Node server
+
+It is the side plateform that takes request and send response to client . 
+
+# Event Queue
+
+event queue stores the  incomming client request nad passes one by one into event loop
+
+# Event loop
+
+event loop is  working  every time . it takes request from the event queue and process them and returns response corrsponding  clients.
+
+# External Resources.
+
+if the node server does not find in the database . in this case server fetch data from the external resources.
